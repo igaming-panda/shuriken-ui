@@ -6,7 +6,8 @@ export default defineNuxtConfig({
   modules: [
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxt/icon',
   ],
 
   colorMode: {
@@ -17,6 +18,11 @@ export default defineNuxtConfig({
     {
       prefix: '',
       path: resolve('./components/base'),
+      global: false,
+    },
+    {
+      prefix: '',
+      path: resolve('./components/icon'),
       global: false,
     },
     {
