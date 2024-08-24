@@ -1,0 +1,9 @@
+# Configura todos os arquivos de texto para LF no repositório, mas CRLF no Windows
+* text=auto
+
+# Força os arquivos específicos a usarem LF
+*.js text eol=lf
+*.json text eol=lf
+*.vue text eol=lf
+*.yaml text eol=lf
+*.ts text eol=lf
