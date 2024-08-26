@@ -37,6 +37,8 @@
     ".component-meta"
   ],
   "scripts": {
+    "build": "nuxi build .playground",
+    "generate": "nuxi generate .playground",
     "dev": "nuxt dev .playground --open",
     "lint": "run-s lint:eslint:fix lint:prettier:fix",
     "lint:prettier": "prettier --check \"./**/*.(ts|vue|css|scss|md)\"",
