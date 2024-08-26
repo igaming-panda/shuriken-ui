@@ -3,12 +3,7 @@ import { createResolver } from '@nuxt/kit'
 const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
-  modules: [
-    '@vueuse/nuxt',
-    '@nuxtjs/color-mode',
-    '@nuxtjs/tailwindcss',
-    '@nuxt/icon',
-  ],
+  modules: ['@vueuse/nuxt', '@nuxtjs/color-mode', '@nuxtjs/tailwindcss'],
 
   colorMode: {
     classSuffix: '',

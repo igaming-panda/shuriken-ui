@@ -146,9 +146,7 @@ function toggle(value: string) {
           name="icon"
           :icon-name="tab.icon"
           :toggle="toggle"
-        >
-          <Icon :name="tab.icon" class="me-1 block size-5" />
-        </slot>
+        ></slot>
         <span
           :class="[
             props.type === 'box' && tab.icon && 'text-[.85rem]',

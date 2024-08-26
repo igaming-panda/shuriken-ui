@@ -176,9 +176,7 @@ const icon = computed(() =>
       class="nui-message-icon-outer"
       :class="classes?.icon"
     >
-      <slot name="icon" icon-name="icon">
-        <Icon v-if="icon" :name="icon" class="nui-message-icon" />
-      </slot>
+      <slot name="icon" icon-name="icon"></slot>
     </div>
     <span class="nui-message-inner-text" :class="classes?.text">
       <slot>{{ props.message }}</slot>
@@ -191,9 +189,7 @@ const icon = computed(() =>
         :class="[rounded && radiuses[rounded]]"
         @click="emit('close')"
       >
-        <slot name="close-button">
-          <Icon :name="closeIcon" class="nui-close-icon" />
-        </slot>
+        <slot name="close-button"></slot>
       </button>
     </div>
   </div>

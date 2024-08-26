@@ -417,9 +417,7 @@ if (import.meta.dev) {
           class="nui-input-number-icon"
           :class="props.classes?.icon"
         >
-          <slot name="icon">
-            <Icon :name="props.icon" class="nui-input-number-icon-inner" />
-          </slot>
+          <slot name="icon"></slot>
         </div>
         <div class="nui-input-number-buttons" :class="props.classes?.buttons">
           <button
@@ -429,9 +427,7 @@ if (import.meta.dev) {
             @pointerout="stopDecrement"
             @pointerup="stopDecrement"
             :disabled="props.disabled"
-          >
-            <Icon :name="props.iconDecrement" />
-          </button>
+          ></button>
           <button
             type="button"
             aria-label="Increment"
@@ -439,9 +435,7 @@ if (import.meta.dev) {
             @pointerout="stopIncrement"
             @pointerup="stopIncrement"
             :disabled="props.disabled"
-          >
-            <Icon :name="props.iconIncrement" />
-          </button>
+          ></button>
         </div>
       </div>
     </div>

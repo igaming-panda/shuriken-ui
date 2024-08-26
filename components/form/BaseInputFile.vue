@@ -145,7 +145,7 @@ const defaultTextValue = (fileList?: FileList | null) => {
   }
 
   return fileList?.item.length === 1
-    ? (fileList.item(0)?.name ?? i18n.value.invalid)
+    ? fileList.item(0)?.name ?? i18n.value.invalid
     : i18n.value.multiple.replaceAll(
         '{count}',
         String(fileList?.item?.length ?? 0),

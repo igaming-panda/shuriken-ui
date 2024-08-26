@@ -390,9 +390,7 @@ const internal = ref<any>(modelValue)
                       class="nui-icon-box"
                       :class="props.classes?.icon"
                     >
-                      <slot name="icon">
-                        <Icon :name="props.icon" class="nui-icon-box-inner" />
-                      </slot>
+                      <slot name="icon"></slot>
                     </BaseIconBox>
 
                     <template v-if="Array.isArray(modelValue)">

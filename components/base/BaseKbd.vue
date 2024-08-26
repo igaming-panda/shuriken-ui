@@ -75,9 +75,7 @@ const colors = {
     ]"
   >
     <slot>
-      <span v-if="props.icon" class="nui-kbd-icon-outer">
-        <Icon :name="props.icon" class="nui-kbd-icon-inner" />
-      </span>
+      <span v-if="props.icon" class="nui-kbd-icon-outer"></span>
     </slot>
   </kbd>
 </template>

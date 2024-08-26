@@ -50,8 +50,6 @@ const uploadedFiles = ref<FileList | null>(null)
                 class="nui-focus border-muted-200 hover:border-primary-500 text-muted-700 dark:text-muted-200 hover:text-primary-600 dark:border-muted-700 dark:bg-muted-800 dark:hover:border-primary-500 dark:hover:text-primary-600 relative flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border bg-white transition-colors duration-300"
                 tooltip="Start Upload"
               >
-                <Icon name="lucide:arrow-up" class="h-4 w-4" />
-
                 <span class="sr-only">Start Upload</span>
               </button>
             </div>
@@ -146,8 +144,6 @@ const uploadedFiles = ref<FileList | null>(null)
                         type="button"
                         tooltip="Cancel"
                       >
-                        <Icon name="lucide:slash" class="h-4 w-4" />
-
                         <span class="sr-only">Cancel</span>
                       </button>
 
@@ -156,8 +152,6 @@ const uploadedFiles = ref<FileList | null>(null)
                         type="button"
                         tooltip="Upload"
                       >
-                        <Icon name="lucide:arrow-up" class="h-4 w-4" />
-
                         <span class="sr-only">Upload</span>
                       </button>
 
@@ -167,8 +161,6 @@ const uploadedFiles = ref<FileList | null>(null)
                         tooltip="Remove"
                         @click.prevent="remove(file)"
                       >
-                        <Icon name="lucide:x" class="h-4 w-4" />
-
                         <span class="sr-only">Remove</span>
                       </button>
                     </div>

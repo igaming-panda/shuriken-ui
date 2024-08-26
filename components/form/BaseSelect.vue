@@ -240,9 +240,7 @@ const placeholder = computed(() => {
         class="nui-select-icon"
         :class="props.classes?.icon"
       >
-        <slot name="icon">
-          <Icon class="nui-select-icon-inner" :name="props.icon" />
-        </slot>
+        <slot name="icon"></slot>
       </div>
       <div
         class="nui-select-chevron nui-chevron"

@@ -106,9 +106,7 @@ const colors = {
       class="nui-snack-icon"
       :class="props.classes?.icon"
     >
-      <slot name="icon">
-        <Icon :name="props.icon" class="nui-snack-icon-inner" />
-      </slot>
+      <slot name="icon"></slot>
     </div>
     <div
       v-else-if="props.image && !props.icon"

@@ -80,7 +80,5 @@ const props = withDefaults(
       {{ props.value.sublabel }}
     </BaseText>
   </div>
-  <span v-if="selected" class="nui-listbox-selected-icon">
-    <Icon :name="selectedIcon" class="nui-listbobx-selected-icon-inner" />
-  </span>
+  <span v-if="selected" class="nui-listbox-selected-icon"></span>
 </template>

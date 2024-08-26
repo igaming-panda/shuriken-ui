@@ -309,9 +309,7 @@ const handleLinkClick = (e: MouseEvent, page = 1) => {
         @keydown.space="(e: any) => (e.target as HTMLAnchorElement).click()"
         @click="(e: any) => handleLinkClick(e, currentPage - 1)"
       >
-        <slot name="previous-icon">
-          <Icon :name="previousIcon" class="pagination-button-icon" />
-        </slot>
+        <slot name="previous-icon"></slot>
       </NuxtLink>
 
       <!-- Next -->
@@ -323,9 +321,7 @@ const handleLinkClick = (e: MouseEvent, page = 1) => {
         @keydown.space="(e: any) => (e.target as HTMLAnchorElement).click()"
         @click="(e: any) => handleLinkClick(e, currentPage + 1)"
       >
-        <slot name="next-icon">
-          <Icon :name="nextIcon" class="pagination-button-icon" />
-        </slot>
+        <slot name="next-icon"></slot>
       </NuxtLink>
       <slot name="after-navigation"></slot>
     </BaseFocusLoop>

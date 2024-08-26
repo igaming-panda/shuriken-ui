@@ -107,13 +107,15 @@ const demoBreadcrumbTwo = [
         description="Breadcrumb component with chevron separator"
       >
         <div class="flex flex-col gap-4 pt-4">
-          <BaseBreadcrumb :items="demoBreadcrumbOne" separator="chevron">
-            <Icon name="lucide:chevron-right" class="w-4 h-4" />
-          </BaseBreadcrumb>
+          <BaseBreadcrumb
+            :items="demoBreadcrumbOne"
+            separator="chevron"
+          ></BaseBreadcrumb>
 
-          <BaseBreadcrumb :items="demoBreadcrumbTwo" separator="chevron">
-            <Icon name="lucide:chevron-right" class="w-4 h-4" />
-          </BaseBreadcrumb>
+          <BaseBreadcrumb
+            :items="demoBreadcrumbTwo"
+            separator="chevron"
+          ></BaseBreadcrumb>
         </div>
       </NuiPreview>
 
@@ -122,13 +124,15 @@ const demoBreadcrumbTwo = [
         description="Breadcrumb component with arrow separator"
       >
         <div class="flex flex-col gap-4 pt-4">
-          <BaseBreadcrumb :items="demoBreadcrumbOne" separator="arrow">
-            <Icon name="lucide:arrow-right" class="w-4 h-4" />
-          </BaseBreadcrumb>
+          <BaseBreadcrumb
+            :items="demoBreadcrumbOne"
+            separator="arrow"
+          ></BaseBreadcrumb>
 
-          <BaseBreadcrumb :items="demoBreadcrumbTwo" separator="arrow">
-            <Icon name="lucide:arrow-right" class="w-4 h-4" />
-          </BaseBreadcrumb>
+          <BaseBreadcrumb
+            :items="demoBreadcrumbTwo"
+            separator="arrow"
+          ></BaseBreadcrumb>
         </div>
       </NuiPreview>
     </NuiPreviewContainer>

@@ -278,9 +278,7 @@ if (import.meta.dev) {
           class="nui-input-icon"
           :class="props.classes?.icon"
         >
-          <slot name="icon">
-            <Icon :name="props.icon" class="nui-input-icon-inner" />
-          </slot>
+          <slot name="icon"></slot>
         </div>
         <slot name="action"></slot>
       </div>

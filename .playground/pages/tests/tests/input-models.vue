@@ -600,9 +600,7 @@ inputFile1: {{ inputFile1?.item?.(0)?.name }}({{ typeof inputFile1 }})</pre
             v-slot="{ open, remove, preview, drop, files }"
           >
             <div class="flex gap-2">
-              <BaseButtonIcon @click="open">
-                <Icon name="ph:file-plus" />
-              </BaseButtonIcon>
+              <BaseButtonIcon @click="open"></BaseButtonIcon>
 
               <template v-for="file of files">
                 <BaseAvatar
@@ -616,9 +614,7 @@ inputFile1: {{ inputFile1?.item?.(0)?.name }}({{ typeof inputFile1 }})</pre
                     :title="`${file.name} (${file.type})`"
                     bordered
                     @click="remove(file)"
-                  >
-                    <Icon name="ph:file" />
-                  </BaseIconBox>
+                  ></BaseIconBox>
                 </div>
               </template>
             </div>

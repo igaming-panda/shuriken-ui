@@ -176,9 +176,7 @@ const markedSublabel = useNinjaMark(() => sublabel.value, query, mark)
       class="ms-auto flex items-center justify-center"
       :class="[media && 'size-8', icon && 'size-8']"
     >
-      <slot name="selected-icon">
-        <Icon :name="selectedIcon" class="text-success-500 block size-4" />
-      </slot>
+      <slot name="selected-icon"></slot>
     </div>
   </div>
 </template>

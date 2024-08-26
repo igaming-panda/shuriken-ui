@@ -707,9 +707,7 @@ const internal = ref<any>(modelValue)
             </slot>
           </ComboboxLabel>
           <div v-if="iconResolved" class="nui-autocomplete-icon">
-            <slot name="icon" :icon-name="iconResolved">
-              <Icon :name="iconResolved" class="nui-autocomplete-icon-inner" />
-            </slot>
+            <slot name="icon" :icon-name="iconResolved"></slot>
           </div>
           <button
             v-if="

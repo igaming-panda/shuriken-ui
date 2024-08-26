@@ -5,12 +5,6 @@ import { fileURLToPath } from 'node:url'
 
 export default defineNuxtConfig({
   extends: '..',
-  modules: ['nuxt-component-meta', 'unplugin-fonts/nuxt'],
-  unfonts: {
-    google: {
-      families: ['Roboto Flex', 'Inter', 'Karla'],
-    },
-  },
   sourcemap: true,
   tailwindcss: {
     // config: {
@@ -39,27 +33,6 @@ export default defineNuxtConfig({
     //     },
     //   },
     // },
-  },
-  componentMeta: {
-    globalsOnly: false,
-    debug: 2,
-    exclude: [
-      (component: any) => {
-        const componentsPath = join(
-          dirname(fileURLToPath(import.meta.url)),
-          '../components',
-        )
-        const isExternal = !component.filePath?.startsWith?.(componentsPath)
-        const isIcon = component?.kebabName?.startsWith('icon-')
-
-        return isExternal || isIcon
-      },
-    ],
-    checkerOptions: {
-      schema: {
-        ignore: ['KeyboardEvent'],
-      },
-    },
   },
   hooks: {
     // @ts-ignore

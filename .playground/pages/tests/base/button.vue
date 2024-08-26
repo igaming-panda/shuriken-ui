@@ -116,27 +116,21 @@ definePageMeta({
       <NuiPreview title="With icons" description="Button component with icons">
         <div class="flex flex-wrap items-end gap-4">
           <BaseButton color="default">
-            <Icon name="lucide:moon" class="-ms-1 h-4 w-4" />
             <span>Button</span>
           </BaseButton>
           <BaseButton color="primary">
             <span>Button</span>
-            <Icon name="lucide:arrow-right" class="me-1 h-4 w-4" />
           </BaseButton>
           <BaseButton color="success">
-            <Icon name="cib:envato" class="-ms-1 h-4 w-4" />
             <span>Button</span>
           </BaseButton>
           <BaseButton color="info">
-            <Icon name="fa:twitter" class="-ms-1 h-4 w-4" />
             <span>Button</span>
           </BaseButton>
           <BaseButton color="warning">
-            <Icon name="ion:shapes" class="-ms-1 h-4 w-4" />
             <span>Button</span>
           </BaseButton>
           <BaseButton color="danger">
-            <Icon name="ph:heart-duotone" class="-ms-1 h-4 w-4" />
             <span>Button</span>
           </BaseButton>
         </div>
@@ -220,19 +214,15 @@ definePageMeta({
       >
         <BaseButtonGroup>
           <BaseButton color="default">
-            <Icon name="lucide:edit-3" class="-ms-1 h-3 w-3" />
             <span>Edit</span>
           </BaseButton>
           <BaseButton color="default">
-            <Icon name="lucide:eye" class="-ms-1 h-3 w-3" />
             <span>View</span>
           </BaseButton>
           <BaseButton color="primary">
-            <Icon name="lucide:box" class="-ms-1 h-3 w-3" />
             <span>Stash</span>
           </BaseButton>
           <BaseButton color="default">
-            <Icon name="lucide:share-2" class="-ms-1 h-3 w-3" />
             <span>Share</span>
           </BaseButton>
         </BaseButtonGroup>

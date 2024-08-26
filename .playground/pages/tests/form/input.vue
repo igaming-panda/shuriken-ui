@@ -462,9 +462,7 @@ const taxes = ref('With taxes')
                   type="button"
                   data-nui-tooltip="Save"
                   class="absolute top-0 end-0 z-[1] flex items-center justify-center h-8 w-8 text-muted-400 hover:text-primary-500 transition-colors duration-300"
-                >
-                  <Icon name="lucide:save" class="w-4 h-4" />
-                </button>
+                ></button>
               </template>
             </BaseInput>
           </div>
@@ -482,9 +480,7 @@ const taxes = ref('With taxes')
                   type="button"
                   data-nui-tooltip="Save"
                   class="absolute top-0 end-0 z-[1] flex items-center justify-center h-10 w-10 text-muted-400 hover:text-primary-500 transition-colors duration-300"
-                >
-                  <Icon name="lucide:save" class="w-4 h-4" />
-                </button>
+                ></button>
               </template>
             </BaseInput>
           </div>
@@ -502,9 +498,7 @@ const taxes = ref('With taxes')
                   type="button"
                   data-nui-tooltip="Save"
                   class="absolute top-0 end-0 z-[1] flex items-center justify-center h-12 w-12 text-muted-400 hover:text-primary-500 transition-colors duration-300"
-                >
-                  <Icon name="lucide:save" class="w-5 h-5" />
-                </button>
+                ></button>
               </template>
             </BaseInput>
           </div>
@@ -522,9 +516,7 @@ const taxes = ref('With taxes')
                   type="button"
                   data-nui-tooltip="Save"
                   class="absolute top-0 end-0 z-[1] flex items-center justify-center h-14 w-14 text-muted-400 hover:text-primary-500 transition-colors duration-300"
-                >
-                  <Icon name="lucide:save" class="w-5 h-5" />
-                </button>
+                ></button>
               </template>
             </BaseInput>
           </div>

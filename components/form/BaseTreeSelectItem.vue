@@ -101,9 +101,7 @@ const wrapperProps = computed(() => {
         rounded="full"
         class="me-2"
       >
-        <slot name="item-icon">
-          <Icon :name="props.value.icon" class="size-4" />
-        </slot>
+        <slot name="item-icon"></slot>
       </BaseIconBox>
       <div class="flex flex-col items-start">
         <div

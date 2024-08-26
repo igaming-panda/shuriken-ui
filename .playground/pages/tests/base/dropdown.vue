@@ -531,9 +531,7 @@ definePageMeta({
               contrast="default"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:user-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownItem
               to="#"
@@ -542,9 +540,7 @@ definePageMeta({
               contrast="default"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:briefcase-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownItem
               to="#"
@@ -553,9 +549,7 @@ definePageMeta({
               contrast="default"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:users-four-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownDivider />
             <BaseDropdownItem
@@ -565,9 +559,7 @@ definePageMeta({
               contrast="default"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:gear-six-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
           </BaseDropdown>
 
@@ -580,9 +572,7 @@ definePageMeta({
               color="dark"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:user-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownItem
               to="#"
@@ -592,9 +582,7 @@ definePageMeta({
               color="dark"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:briefcase-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownItem
               to="#"
@@ -604,9 +592,7 @@ definePageMeta({
               color="dark"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:users-four-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
             <BaseDropdownDivider />
             <BaseDropdownItem
@@ -617,9 +603,7 @@ definePageMeta({
               color="dark"
               rounded="sm"
             >
-              <template #start>
-                <Icon name="ph:gear-six-duotone" class="me-2 block h-5 w-5" />
-              </template>
+              <template #start></template>
             </BaseDropdownItem>
           </BaseDropdown>
         </div>
